@@ -1,0 +1,1017 @@
+2026-04-18 13:39:02 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 13:39:02 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 13:39:02 INFO root logger.py:156 日志级别：20
+2026-04-18 13:39:04 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 13:39:04 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 13:39:04 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 13:39:04 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 13:39:04 INFO course_assistant_api_rag api_server.py:88 pypdf 库已加载
+2026-04-18 13:39:04 INFO course_assistant_api_rag api_server.py:94 python-docx 库已加载
+2026-04-18 13:39:05 INFO course_assistant_api_rag api_server.py:100 python-pptx 库已加载
+2026-04-18 13:39:05 INFO course_assistant_api_rag api_server.py:106 nbformat 库已加载
+2026-04-18 13:39:05 INFO course_assistant_api_rag api_server.py:112 BeautifulSoup 库已加载
+2026-04-18 13:39:21 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 13:39:21 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 13:39:21 INFO root logger.py:156 日志级别：20
+2026-04-18 13:39:21 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 13:39:21 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 13:39:23 INFO component.memory_sqlite memory_sqlite.py:278 创建数据库目录: D:\rgzn\A3_sz\data\log_sql
+2026-04-18 13:39:23 INFO component.session_manager session_manager.py:56 数据库读取成功，但当前没有会话。正在创建默认会话...
+2026-04-18 13:39:23 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 默认会话
+2026-04-18 13:39:23 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 默认会话
+2026-04-18 13:39:23 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 13:39:23 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 13:39:23 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 13:39:23 INFO __main__ app_gradio.py:696 启动 Gradio 应用...
+2026-04-18 13:39:24 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 13:39:24 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 13:39:24 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 13:39:40 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 1_133940
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 2 个会话
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 1_133940
+2026-04-18 13:39:40 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 2_133940
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 3 个会话
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 2_133940
+2026-04-18 13:39:40 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 3_133940
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 4 个会话
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 3_133940
+2026-04-18 13:39:40 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 4_133940
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 5 个会话
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 4_133940
+2026-04-18 13:39:40 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 5_133940
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 6 个会话
+2026-04-18 13:39:40 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 5_133940
+2026-04-18 13:39:41 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 6_133941
+2026-04-18 13:39:41 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 7 个会话
+2026-04-18 13:39:41 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 6_133941
+2026-04-18 13:39:41 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 7_133941
+2026-04-18 13:39:41 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 8 个会话
+2026-04-18 13:39:41 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 7_133941
+2026-04-18 13:39:41 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 8_133941
+2026-04-18 13:39:41 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 9 个会话
+2026-04-18 13:39:41 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 8_133941
+2026-04-18 13:40:05 INFO __main__ app_gradio.py:131 发送聊天请求: python元祖的定义
+2026-04-18 13:40:05 INFO course_assistant_api_rag api_server.py:335 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: python元祖的定义
+2026-04-18 13:40:05 INFO component.memory_sqlite memory_sqlite.py:48 初始化 MemorySaver (内存存储模式)
+2026-04-18 13:40:05 INFO component.memory_sqlite memory_sqlite.py:50 MemorySaver 初始化完成
+2026-04-18 13:40:05 INFO component.agent agent.py:541 意图分类器初始化完成
+2026-04-18 13:40:05 INFO component.agent agent.py:544 开始初始化课程问答Agent...
+2026-04-18 13:40:06 WARNING component.agent agent.py:562 无法导入 AgentExecutor，将使用 LangGraph 方式
+2026-04-18 13:40:06 INFO component.agent agent.py:570 课程问答Agent初始化完成（LangGraph方式）
+2026-04-18 13:40:09 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.98, 理由: 用户询问'python元祖的定义'，其中'元祖'应为'元组'的笔误；该问题明确指向Python编程语言的基础数据类型概念，属于编程语言特性/语法基础范畴，是典型课程（如Python程序设计、编程导论）中讲授的核心知识点。
+2026-04-18 13:40:09 INFO course_assistant_api_rag api_server.py:345 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.98
+2026-04-18 13:40:09 INFO course_assistant_api_rag api_server.py:393 开始执行 RAG 检索，查询: python元祖的定义
+2026-04-18 13:40:09 INFO course_assistant_api_rag api_server.py:280 开始 RAG 检索，查询: python元祖的定义, k=3
+2026-04-18 13:40:09 INFO component.rag_course rag_course.py:258 初始化向量数据库...
+2026-04-18 13:40:09 INFO component.llms llms.py:398 初始化 Qwen 嵌入模型成功: text-embedding-v1
+2026-04-18 13:40:09 INFO component.rag_course rag_course.py:349 未找到持久化向量库，将创建新库...
+2026-04-18 13:40:09 INFO component.rag_course rag_course.py:357 开始从目录加载文档: D:\rgzn\A3_sz\data\course_doc
+2026-04-18 13:40:09 INFO component.rag_course rag_course.py:170 找到 2 个待处理文件
+2026-04-18 13:40:12 INFO component.rag_course rag_course.py:219 成功加载 31 个文档片段
+2026-04-18 13:40:12 INFO component.rag_course rag_course.py:230 文档处理完成：共生成 32 个文本块
+2026-04-18 13:40:12 INFO component.rag_course rag_course.py:369 正在将 32 个文档块写入向量库...
+2026-04-18 13:40:14 INFO component.rag_course rag_course.py:376 向量库构建并持久化完成
+2026-04-18 13:40:15 INFO course_assistant_api_rag api_server.py:283 RAG 检索完成，返回 3 个文档
+2026-04-18 13:40:15 INFO course_assistant_api_rag api_server.py:398 RAG 检索完成，获取 3 条知识点
+2026-04-18 13:40:21 INFO __main__ app_gradio.py:148 收到回复: 参考资料中未提及“Python元组（tuple）的定义”。  
+
+你提供的参考资料主要围绕**面向对象编程（类与对象）** 和 **异常处理** 相关知识点，包括：
+- 类的定义与对象实例化  
+- ...
+2026-04-18 13:41:54 INFO __main__ app_gradio.py:131 发送聊天请求: python的异常处理
+2026-04-18 13:41:54 INFO course_assistant_api_rag api_server.py:335 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: python的异常处理
+2026-04-18 13:41:57 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.98, 理由: 用户询问'python的异常处理'，属于编程语言特性与课程中常见的核心知识点，典型的数据结构/程序设计/Python程序设计等课程内容，无需外部最新资料即可在课程资料库中检索到详细讲解。
+2026-04-18 13:41:57 INFO course_assistant_api_rag api_server.py:345 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.98
+2026-04-18 13:41:57 INFO course_assistant_api_rag api_server.py:393 开始执行 RAG 检索，查询: python的异常处理
+2026-04-18 13:41:57 INFO course_assistant_api_rag api_server.py:280 开始 RAG 检索，查询: python的异常处理, k=3
+2026-04-18 13:41:57 INFO component.rag_course rag_course.py:253 返回已存在的向量库，文档数量: 32
+2026-04-18 13:41:58 INFO course_assistant_api_rag api_server.py:283 RAG 检索完成，返回 3 个文档
+2026-04-18 13:41:58 INFO course_assistant_api_rag api_server.py:398 RAG 检索完成，获取 3 条知识点
+2026-04-18 13:42:17 INFO __main__ app_gradio.py:148 收到回复: 根据你提供的课程资料（来自《异常处理.pdf》），以下是关于 **Python 异常处理** 的核心知识点总结，严格依据参考资料内容整理，并辅以课程学习视角的专业解读：
+
+---
+
+### ✅ 一、异...
+2026-04-18 13:42:17 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2376.0/3000 tokens)，截断历史记录
+2026-04-18 14:01:06 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:01:06 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:01:06 INFO root logger.py:156 日志级别：20
+2026-04-18 14:01:08 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 14:01:08 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 14:01:08 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:01:08 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:01:08 INFO course_assistant_api_rag api_server.py:88 pypdf 库已加载
+2026-04-18 14:01:08 INFO course_assistant_api_rag api_server.py:94 python-docx 库已加载
+2026-04-18 14:01:08 INFO course_assistant_api_rag api_server.py:100 python-pptx 库已加载
+2026-04-18 14:01:08 INFO course_assistant_api_rag api_server.py:106 nbformat 库已加载
+2026-04-18 14:01:08 INFO course_assistant_api_rag api_server.py:112 BeautifulSoup 库已加载
+2026-04-18 14:01:18 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:01:18 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:01:18 INFO root logger.py:156 日志级别：20
+2026-04-18 14:01:18 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 14:01:18 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 14:01:19 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 14:01:19 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 14:01:19 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 14:01:19 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 14:01:19 INFO __main__ app_gradio.py:696 启动 Gradio 应用...
+2026-04-18 14:01:20 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 14:01:20 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 14:01:20 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 14:01:36 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2376.0/3000 tokens)，截断历史记录
+2026-04-18 14:02:33 INFO __main__ app_gradio.py:331 处理文件上传: 元祖集合列表字典.pdf, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\dbec910ccc68d0da0abc7313bcaf59202f2e835662c3b6ab54df549747a875f2\元祖集合列表字典.pdf
+2026-04-18 14:02:33 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:02:33 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:33 INFO course_assistant_api_rag api_server.py:602 文件 元祖集合列表字典.pdf 已成功上传到 MinIO: minio://course-materials/course_materials/元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:33 INFO course_assistant_api_rag api_server.py:611 准备从MinIO下载文件: 元祖集合列表字典_1776492153.pdf 到 D:\rgzn\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:33 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:33 INFO course_assistant_api_rag api_server.py:625 文件已从 MinIO 下载到临时目录: D:\rgzn\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:33 INFO course_assistant_api_rag api_server.py:633 下载的文件大小: 657363 字节
+2026-04-18 14:02:33 INFO course_assistant_api_rag api_server.py:643 开始直接从临时文件解析文本: D:\rgzn\data\temp\元祖集合列表字典_1776492153.pdf, 类型: pdf
+2026-04-18 14:02:33 INFO component.files_parser files_parser.py:237 文件大小: 657363 字节
+2026-04-18 14:02:33 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:33 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:02:33 INFO component.files_parser files_parser.py:279 PDF文件共有 25 页
+2026-04-18 14:02:34 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 4646 个字符的文本
+2026-04-18 14:02:34 INFO course_assistant_api_rag api_server.py:665 成功从文件 元祖集合列表字典.pdf 中提取了 4646 个字符的文本
+2026-04-18 14:02:34 INFO component.files_parser files_parser.py:237 文件大小: 657363 字节
+2026-04-18 14:02:34 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:34 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:02:34 INFO component.files_parser files_parser.py:279 PDF文件共有 25 页
+2026-04-18 14:02:35 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 4646 个字符的文本
+2026-04-18 14:02:35 INFO course_assistant_api_rag api_server.py:676 成功从文件 元祖集合列表字典.pdf 中提取了 4646 个字符的文本
+2026-04-18 14:02:35 INFO course_assistant_api_rag api_server.py:691 文件相关性检查结果: 相关=True, 评分=0.8, 理由=文件内容包含 27 个课程相关关键词：内容, 示例, 方法, 基础, 高级
+2026-04-18 14:02:35 INFO course_assistant_api_rag api_server.py:711 文件已移动到目标目录: D:\rgzn\data\course_doc\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:35 INFO component.memory_sqlite memory_sqlite.py:1112 保存文件映射: 元祖集合列表字典.pdf -> 元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:35 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:35 INFO component.files_parser files_parser.py:237 文件大小: 657363 字节
+2026-04-18 14:02:35 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:35 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:02:35 INFO component.files_parser files_parser.py:279 PDF文件共有 25 页
+2026-04-18 14:02:36 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 4646 个字符的文本
+2026-04-18 14:02:36 INFO component.files_parser files_parser.py:1053 文件相关性检查结果: 相关=True, 评分=0.8, 理由=文件内容包含 27 个课程相关关键词：内容, 示例, 方法, 基础, 高级
+2026-04-18 14:02:36 INFO component.files_parser files_parser.py:1082 开始将文件 元祖集合列表字典_1776492153.pdf 添加到向量库
+2026-04-18 14:02:36 INFO component.rag_course rag_course.py:569 开始从 MinIO 下载文件: 元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:36 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:36 INFO component.rag_course rag_course.py:581 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:36 INFO component.rag_course rag_course.py:414 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:02:36 INFO component.rag_course rag_course.py:258 初始化向量数据库...
+2026-04-18 14:02:36 INFO component.llms llms.py:398 初始化 Qwen 嵌入模型成功: text-embedding-v1
+2026-04-18 14:02:36 INFO component.rag_course rag_course.py:321 尝试从磁盘加载向量库: D:\rgzn\A3_sz\data\chroma_course
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:331 向量库当前文档数量: 32
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:337 成功加载持久化向量库
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:432 处理文件: 元祖集合列表字典_1776492153.pdf, 类型: .pdf
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:455 从文件 元祖集合列表字典_1776492153.pdf 加载了 25 个文档片段
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:486 开始分割 25 个文档片段
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:488 分割完成，生成 25 个文本块
+2026-04-18 14:02:37 INFO component.rag_course rag_course.py:491 开始将 25 个文本块添加到向量库
+2026-04-18 14:02:38 INFO component.rag_course rag_course.py:493 成功添加 25 个文档块到向量库
+2026-04-18 14:02:38 INFO component.rag_course rag_course.py:499 向量库当前文档总数: 57
+2026-04-18 14:02:39 INFO component.rag_course rag_course.py:507 向量库验证成功，检索到 5 条结果
+2026-04-18 14:02:39 INFO component.rag_course rag_course.py:511 验证成功：新上传的文件 元祖集合列表字典_1776492153.pdf 已被索引
+2026-04-18 14:02:39 INFO component.rag_course rag_course.py:585 成功将文件 元祖集合列表字典_1776492153.pdf 添加到向量库
+2026-04-18 14:02:39 INFO component.files_parser files_parser.py:1155 文件 元祖集合列表字典_1776492153.pdf 处理完成
+2026-04-18 14:02:39 INFO course_assistant_api_rag api_server.py:759 文件映射保存成功: 元祖集合列表字典.pdf -> 元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:39 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 元祖集合列表字典.pdf 上传成功，已存入课程文档目录，向量库正在后台更新中...', 'file_path': 'D:\\rgzn\\data\\course_doc\\元祖集合列表字典_1776492153.pdf', 'minio_path': 'minio://course-materials/course_materials/元祖集合列表字典_1776492153.pdf', 'relevance_score': 0.8, 'reason': '文件内容包含 27 个课程相关关键词：内容, 示例, 方法, 基础, 高级', 'suggested_categories': ['通识教育']}, 'timestamp': '2026-04-18T14:02:39.125398'}
+2026-04-18 14:02:39 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:02:39 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: 元祖集合列表字典.pdf
+2026-04-18 14:02:39 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (1126.5/3000 tokens)，截断历史记录
+2026-04-18 14:02:39 INFO course_assistant_api_rag api_server.py:724 开始更新向量库，添加文件: 元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:40 INFO component.rag_course rag_course.py:569 开始从 MinIO 下载文件: 元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:40 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:40 INFO component.rag_course rag_course.py:581 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\元祖集合列表字典_1776492153.pdf
+2026-04-18 14:02:40 INFO component.rag_course rag_course.py:414 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:02:40 INFO component.rag_course rag_course.py:253 返回已存在的向量库，文档数量: 57
+2026-04-18 14:02:40 INFO component.rag_course rag_course.py:432 处理文件: 元祖集合列表字典_1776492153.pdf, 类型: .pdf
+2026-04-18 14:02:41 INFO component.rag_course rag_course.py:455 从文件 元祖集合列表字典_1776492153.pdf 加载了 25 个文档片段
+2026-04-18 14:02:41 INFO component.rag_course rag_course.py:486 开始分割 25 个文档片段
+2026-04-18 14:02:41 INFO component.rag_course rag_course.py:488 分割完成，生成 25 个文本块
+2026-04-18 14:02:41 INFO component.rag_course rag_course.py:491 开始将 25 个文本块添加到向量库
+2026-04-18 14:02:41 INFO component.rag_course rag_course.py:493 成功添加 25 个文档块到向量库
+2026-04-18 14:02:41 INFO component.rag_course rag_course.py:499 向量库当前文档总数: 82
+2026-04-18 14:02:42 INFO component.rag_course rag_course.py:507 向量库验证成功，检索到 5 条结果
+2026-04-18 14:02:42 INFO component.rag_course rag_course.py:511 验证成功：新上传的文件 元祖集合列表字典_1776492153.pdf 已被索引
+2026-04-18 14:02:42 INFO component.rag_course rag_course.py:585 成功将文件 元祖集合列表字典_1776492153.pdf 添加到向量库
+2026-04-18 14:02:42 INFO course_assistant_api_rag api_server.py:728 成功将文件 元祖集合列表字典_1776492153.pdf 添加到向量库
+2026-04-18 14:04:25 INFO __main__ app_gradio.py:131 发送聊天请求: python元祖的定义与格式
+2026-04-18 14:04:25 INFO course_assistant_api_rag api_server.py:335 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: python元祖的定义与格式
+2026-04-18 14:04:25 INFO component.memory_sqlite memory_sqlite.py:48 初始化 MemorySaver (内存存储模式)
+2026-04-18 14:04:25 INFO component.memory_sqlite memory_sqlite.py:50 MemorySaver 初始化完成
+2026-04-18 14:04:25 INFO component.agent agent.py:541 意图分类器初始化完成
+2026-04-18 14:04:25 INFO component.agent agent.py:544 开始初始化课程问答Agent...
+2026-04-18 14:04:25 WARNING component.agent agent.py:562 无法导入 AgentExecutor，将使用 LangGraph 方式
+2026-04-18 14:04:25 INFO component.agent agent.py:570 课程问答Agent初始化完成（LangGraph方式）
+2026-04-18 14:04:28 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.98, 理由: 用户询问的是Python中‘元祖’（应为‘元组’，属常见课程术语笔误）的定义与格式，属于编程语言基础语法概念，是Python程序设计类课程的核心教学内容，完全符合COURSE_QA中‘编程语言特性’和‘技术概念’的定义。
+2026-04-18 14:04:28 INFO course_assistant_api_rag api_server.py:345 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.98
+2026-04-18 14:04:28 INFO course_assistant_api_rag api_server.py:393 开始执行 RAG 检索，查询: python元祖的定义与格式
+2026-04-18 14:04:28 INFO course_assistant_api_rag api_server.py:280 开始 RAG 检索，查询: python元祖的定义与格式, k=3
+2026-04-18 14:04:28 INFO component.rag_course rag_course.py:253 返回已存在的向量库，文档数量: 82
+2026-04-18 14:04:29 INFO course_assistant_api_rag api_server.py:283 RAG 检索完成，返回 3 个文档
+2026-04-18 14:04:29 INFO course_assistant_api_rag api_server.py:398 RAG 检索完成，获取 3 条知识点
+2026-04-18 14:04:40 INFO __main__ app_gradio.py:148 收到回复: 根据参考资料，课程材料中提到了“元组（Tuple）”是Python编程基础中的一个重要数据类型，但提供的摘要内容较为简略，仅列出了标题和章节标记（如“Part 01”），**未给出元组的具体定义与格式...
+2026-04-18 14:04:41 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2692.5/3000 tokens)，截断历史记录
+2026-04-18 14:06:06 INFO __main__ app_gradio.py:331 处理文件上传: 函数.pdf, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\1637a7a20d8391589034471de2ee998cfffe34271362e8ab008cae8b4ce60762\函数.pdf
+2026-04-18 14:06:06 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:06:06 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/函数_1776492366.pdf
+2026-04-18 14:06:06 INFO course_assistant_api_rag api_server.py:602 文件 函数.pdf 已成功上传到 MinIO: minio://course-materials/course_materials/函数_1776492366.pdf
+2026-04-18 14:06:06 INFO course_assistant_api_rag api_server.py:611 准备从MinIO下载文件: 函数_1776492366.pdf 到 D:\rgzn\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:06 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:06 INFO course_assistant_api_rag api_server.py:625 文件已从 MinIO 下载到临时目录: D:\rgzn\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:06 INFO course_assistant_api_rag api_server.py:633 下载的文件大小: 2785333 字节
+2026-04-18 14:06:06 INFO course_assistant_api_rag api_server.py:643 开始直接从临时文件解析文本: D:\rgzn\data\temp\函数_1776492366.pdf, 类型: pdf
+2026-04-18 14:06:06 INFO component.files_parser files_parser.py:237 文件大小: 2785333 字节
+2026-04-18 14:06:06 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:06 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:06:06 INFO component.files_parser files_parser.py:279 PDF文件共有 32 页
+2026-04-18 14:06:07 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 3719 个字符的文本
+2026-04-18 14:06:07 INFO course_assistant_api_rag api_server.py:665 成功从文件 函数.pdf 中提取了 3719 个字符的文本
+2026-04-18 14:06:07 INFO component.files_parser files_parser.py:237 文件大小: 2785333 字节
+2026-04-18 14:06:07 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:07 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:06:07 INFO component.files_parser files_parser.py:279 PDF文件共有 32 页
+2026-04-18 14:06:08 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 3719 个字符的文本
+2026-04-18 14:06:08 INFO course_assistant_api_rag api_server.py:676 成功从文件 函数.pdf 中提取了 3719 个字符的文本
+2026-04-18 14:06:08 INFO course_assistant_api_rag api_server.py:691 文件相关性检查结果: 相关=True, 评分=0.8, 理由=文件内容包含 13 个课程相关关键词：学习, 题目, 示例, 练习, 总结
+2026-04-18 14:06:08 INFO course_assistant_api_rag api_server.py:711 文件已移动到目标目录: D:\rgzn\data\course_doc\函数_1776492366.pdf
+2026-04-18 14:06:08 INFO component.memory_sqlite memory_sqlite.py:1112 保存文件映射: 函数.pdf -> 函数_1776492366.pdf
+2026-04-18 14:06:08 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:08 INFO component.files_parser files_parser.py:237 文件大小: 2785333 字节
+2026-04-18 14:06:08 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\函数_1776492366.pdf
+2026-04-18 14:06:08 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:06:08 INFO component.files_parser files_parser.py:279 PDF文件共有 32 页
+2026-04-18 14:06:09 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 3719 个字符的文本
+2026-04-18 14:06:09 INFO component.files_parser files_parser.py:1053 文件相关性检查结果: 相关=True, 评分=0.8, 理由=文件内容包含 13 个课程相关关键词：学习, 题目, 示例, 练习, 总结
+2026-04-18 14:06:09 INFO component.files_parser files_parser.py:1082 开始将文件 函数_1776492366.pdf 添加到向量库
+2026-04-18 14:06:09 INFO component.rag_course rag_course.py:569 开始从 MinIO 下载文件: 函数_1776492366.pdf
+2026-04-18 14:06:09 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\函数_1776492366.pdf
+2026-04-18 14:06:09 INFO component.rag_course rag_course.py:581 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\函数_1776492366.pdf
+2026-04-18 14:06:09 INFO component.rag_course rag_course.py:414 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:06:09 INFO component.rag_course rag_course.py:253 返回已存在的向量库，文档数量: 82
+2026-04-18 14:06:09 INFO component.rag_course rag_course.py:432 处理文件: 函数_1776492366.pdf, 类型: .pdf
+2026-04-18 14:06:10 INFO component.rag_course rag_course.py:455 从文件 函数_1776492366.pdf 加载了 32 个文档片段
+2026-04-18 14:06:10 INFO component.rag_course rag_course.py:486 开始分割 32 个文档片段
+2026-04-18 14:06:10 INFO component.rag_course rag_course.py:488 分割完成，生成 33 个文本块
+2026-04-18 14:06:10 INFO component.rag_course rag_course.py:491 开始将 33 个文本块添加到向量库
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:493 成功添加 33 个文档块到向量库
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:499 向量库当前文档总数: 115
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:507 向量库验证成功，检索到 5 条结果
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:511 验证成功：新上传的文件 函数_1776492366.pdf 已被索引
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:585 成功将文件 函数_1776492366.pdf 添加到向量库
+2026-04-18 14:06:12 INFO component.files_parser files_parser.py:1155 文件 函数_1776492366.pdf 处理完成
+2026-04-18 14:06:12 INFO course_assistant_api_rag api_server.py:759 文件映射保存成功: 函数.pdf -> 函数_1776492366.pdf
+2026-04-18 14:06:12 INFO course_assistant_api_rag api_server.py:724 开始更新向量库，添加文件: 函数_1776492366.pdf
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:569 开始从 MinIO 下载文件: 函数_1776492366.pdf
+2026-04-18 14:06:12 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\函数_1776492366.pdf
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:581 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\函数_1776492366.pdf
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:414 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:253 返回已存在的向量库，文档数量: 115
+2026-04-18 14:06:12 INFO component.rag_course rag_course.py:432 处理文件: 函数_1776492366.pdf, 类型: .pdf
+2026-04-18 14:06:13 INFO component.rag_course rag_course.py:455 从文件 函数_1776492366.pdf 加载了 32 个文档片段
+2026-04-18 14:06:13 INFO component.rag_course rag_course.py:486 开始分割 32 个文档片段
+2026-04-18 14:06:13 INFO component.rag_course rag_course.py:488 分割完成，生成 33 个文本块
+2026-04-18 14:06:13 INFO component.rag_course rag_course.py:491 开始将 33 个文本块添加到向量库
+2026-04-18 14:06:12 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 函数.pdf 上传成功，已存入课程文档目录，向量库正在后台更新中...', 'file_path': 'D:\\rgzn\\data\\course_doc\\函数_1776492366.pdf', 'minio_path': 'minio://course-materials/course_materials/函数_1776492366.pdf', 'relevance_score': 0.8, 'reason': '文件内容包含 13 个课程相关关键词：学习, 题目, 示例, 练习, 总结', 'suggested_categories': ['通识教育']}, 'timestamp': '2026-04-18T14:06:12.706345'}
+2026-04-18 14:06:13 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:06:13 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: 函数.pdf
+2026-04-18 14:06:13 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2367.0/3000 tokens)，截断历史记录
+2026-04-18 14:06:15 INFO component.rag_course rag_course.py:493 成功添加 33 个文档块到向量库
+2026-04-18 14:06:15 INFO component.rag_course rag_course.py:499 向量库当前文档总数: 148
+2026-04-18 14:06:15 INFO component.rag_course rag_course.py:507 向量库验证成功，检索到 5 条结果
+2026-04-18 14:06:15 INFO component.rag_course rag_course.py:511 验证成功：新上传的文件 函数_1776492366.pdf 已被索引
+2026-04-18 14:06:15 INFO component.rag_course rag_course.py:585 成功将文件 函数_1776492366.pdf 添加到向量库
+2026-04-18 14:06:15 INFO course_assistant_api_rag api_server.py:728 成功将文件 函数_1776492366.pdf 添加到向量库
+2026-04-18 14:08:18 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2367.0/3000 tokens)，截断历史记录
+2026-04-18 14:08:32 INFO __main__ app_gradio.py:331 处理文件上传: novl.txt, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\c5975eb76ca7cbba3901871e3006e08f8fbfff4bbab5e4679dc1d7f3f2113b31\novl.txt
+2026-04-18 14:08:32 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:08:32 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/novl_1776492512.txt
+2026-04-18 14:08:32 INFO course_assistant_api_rag api_server.py:602 文件 novl.txt 已成功上传到 MinIO: minio://course-materials/course_materials/novl_1776492512.txt
+2026-04-18 14:08:32 INFO course_assistant_api_rag api_server.py:611 准备从MinIO下载文件: novl_1776492512.txt 到 D:\rgzn\data\temp\novl_1776492512.txt
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\data\temp\novl_1776492512.txt
+2026-04-18 14:08:33 INFO course_assistant_api_rag api_server.py:625 文件已从 MinIO 下载到临时目录: D:\rgzn\data\temp\novl_1776492512.txt
+2026-04-18 14:08:33 INFO course_assistant_api_rag api_server.py:633 下载的文件大小: 400 字节
+2026-04-18 14:08:33 INFO course_assistant_api_rag api_server.py:643 开始直接从临时文件解析文本: D:\rgzn\data\temp\novl_1776492512.txt, 类型: txt
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:237 文件大小: 400 字节
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\data\temp\novl_1776492512.txt
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 140 个字符的文本
+2026-04-18 14:08:33 INFO course_assistant_api_rag api_server.py:665 成功从文件 novl.txt 中提取了 140 个字符的文本
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:237 文件大小: 400 字节
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\data\temp\novl_1776492512.txt
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:08:33 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 140 个字符的文本
+2026-04-18 14:08:33 INFO course_assistant_api_rag api_server.py:676 成功从文件 novl.txt 中提取了 140 个字符的文本
+2026-04-18 14:08:33 INFO course_assistant_api_rag api_server.py:691 文件相关性检查结果: 相关=False, 评分=0.0, 理由=文件内容未检测到足够的课程相关关键词
+2026-04-18 14:08:33 ERROR course_assistant_api_rag api_server.py:802 文件上传失败: name 'GENERAL_FILE_DIR' is not defined
+Traceback (most recent call last):
+  File "D:\rgzn\A3_sz\api_server.py", line 703, in upload_course_doc
+    target_dir = COURSE_DOC_DIR if is_relevant else GENERAL_FILE_DIR
+NameError: name 'GENERAL_FILE_DIR' is not defined
+2026-04-18 14:08:33 ERROR __main__ app_gradio.py:395 文件上传失败: {"detail":{"code":500,"message":"error","data":{"error":"文件上传失败: name 'GENERAL_FILE_DIR' is not defined"},"timestamp":"2026-04-18T14:08:33.065371"}}
+2026-04-18 14:08:33 ERROR __main__ app_gradio.py:441 ❌ 处理文件失败: local variable 'file_card_html' referenced before assignment
+Traceback (most recent call last):
+  File "D:\rgzn\A3_sz\app_gradio.py", line 404, in handle_file_selection
+    "content": file_card_html,
+UnboundLocalError: local variable 'file_card_html' referenced before assignment
+2026-04-18 14:08:33 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2472.0/3000 tokens)，截断历史记录
+2026-04-18 14:14:03 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:14:03 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:14:03 INFO root logger.py:156 日志级别：20
+2026-04-18 14:14:05 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 14:14:05 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 14:14:05 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:14:05 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:14:05 INFO course_assistant_api_rag api_server.py:88 pypdf 库已加载
+2026-04-18 14:14:05 INFO course_assistant_api_rag api_server.py:94 python-docx 库已加载
+2026-04-18 14:14:06 INFO course_assistant_api_rag api_server.py:100 python-pptx 库已加载
+2026-04-18 14:14:06 INFO course_assistant_api_rag api_server.py:106 nbformat 库已加载
+2026-04-18 14:14:06 INFO course_assistant_api_rag api_server.py:112 BeautifulSoup 库已加载
+2026-04-18 14:14:11 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:14:11 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:14:11 INFO root logger.py:156 日志级别：20
+2026-04-18 14:14:12 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 14:14:12 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 14:14:13 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 14:14:13 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 14:14:13 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 14:14:13 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 14:14:14 INFO __main__ app_gradio.py:696 启动 Gradio 应用...
+2026-04-18 14:14:14 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 14:14:14 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 14:14:16 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 14:14:25 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2472.0/3000 tokens)，截断历史记录
+2026-04-18 14:14:32 INFO __main__ app_gradio.py:331 处理文件上传: novl.txt, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\c5975eb76ca7cbba3901871e3006e08f8fbfff4bbab5e4679dc1d7f3f2113b31\novl.txt
+2026-04-18 14:14:32 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:14:32 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/novl_1776492872.txt
+2026-04-18 14:14:32 INFO course_assistant_api_rag api_server.py:604 文件 novl.txt 已成功上传到 MinIO: minio://course-materials/course_materials/novl_1776492872.txt
+2026-04-18 14:14:32 INFO course_assistant_api_rag api_server.py:613 准备从MinIO下载文件: novl_1776492872.txt 到 D:\rgzn\data\temp\novl_1776492872.txt
+2026-04-18 14:14:32 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\data\temp\novl_1776492872.txt
+2026-04-18 14:14:32 INFO course_assistant_api_rag api_server.py:627 文件已从 MinIO 下载到临时目录: D:\rgzn\data\temp\novl_1776492872.txt
+2026-04-18 14:14:32 INFO course_assistant_api_rag api_server.py:635 下载的文件大小: 400 字节
+2026-04-18 14:14:32 INFO course_assistant_api_rag api_server.py:645 开始直接从临时文件解析文本: D:\rgzn\data\temp\novl_1776492872.txt, 类型: txt
+2026-04-18 14:14:32 INFO component.files_parser files_parser.py:237 文件大小: 400 字节
+2026-04-18 14:14:32 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\data\temp\novl_1776492872.txt
+2026-04-18 14:14:33 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:14:33 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 140 个字符的文本
+2026-04-18 14:14:33 INFO course_assistant_api_rag api_server.py:667 成功从文件 novl.txt 中提取了 140 个字符的文本
+2026-04-18 14:14:33 INFO component.files_parser files_parser.py:237 文件大小: 400 字节
+2026-04-18 14:14:33 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\data\temp\novl_1776492872.txt
+2026-04-18 14:14:33 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:14:33 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 140 个字符的文本
+2026-04-18 14:14:33 INFO course_assistant_api_rag api_server.py:678 成功从文件 novl.txt 中提取了 140 个字符的文本
+2026-04-18 14:14:33 INFO course_assistant_api_rag api_server.py:693 文件相关性检查结果: 相关=False, 评分=0.0, 理由=文件内容未检测到足够的课程相关关键词
+2026-04-18 14:14:33 INFO course_assistant_api_rag api_server.py:713 文件已移动到目标目录: D:\rgzn\data\general_files\novl_1776492872.txt
+2026-04-18 14:14:33 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 novl.txt 与课程相关性较低，已存入普通文件目录', 'file_path': 'D:\\rgzn\\data\\general_files\\novl_1776492872.txt', 'minio_path': 'minio://course-materials/course_materials/novl_1776492872.txt', 'relevance_score': 0.0, 'reason': '文件内容未检测到足够的课程相关关键词', 'suggested_categories': ['其他']}, 'timestamp': '2026-04-18T14:14:33.024756'}
+2026-04-18 14:14:33 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:14:33 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: novl.txt
+2026-04-18 14:14:33 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2283.0/3000 tokens)，截断历史记录
+2026-04-18 14:15:51 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:15:51 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:15:51 INFO root logger.py:156 日志级别：20
+2026-04-18 14:15:53 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 14:15:53 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 14:15:53 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:15:53 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:15:53 INFO course_assistant_api_rag api_server.py:88 pypdf 库已加载
+2026-04-18 14:15:53 INFO course_assistant_api_rag api_server.py:94 python-docx 库已加载
+2026-04-18 14:15:54 INFO course_assistant_api_rag api_server.py:100 python-pptx 库已加载
+2026-04-18 14:15:54 INFO course_assistant_api_rag api_server.py:106 nbformat 库已加载
+2026-04-18 14:15:54 INFO course_assistant_api_rag api_server.py:112 BeautifulSoup 库已加载
+2026-04-18 14:18:06 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:18:06 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:18:06 INFO root logger.py:156 日志级别：20
+2026-04-18 14:18:06 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 14:18:06 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 14:18:08 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 14:18:08 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 14:18:08 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 14:18:08 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 14:18:08 INFO __main__ app_gradio.py:696 启动 Gradio 应用...
+2026-04-18 14:18:08 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 14:18:09 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 14:18:09 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 14:18:19 INFO __main__ app_gradio.py:331 处理文件上传: 33.txt, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\d2157fbe9d1620b930ed5f6c4739b993ec2e75e48e1dbf4dcf311b9d8fda70c7\33.txt
+2026-04-18 14:18:19 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/33_1776493099.txt
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:604 文件 33.txt 已成功上传到 MinIO: minio://course-materials/course_materials/33_1776493099.txt
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:613 准备从MinIO下载文件: 33_1776493099.txt 到 D:\rgzn\data\temp\33_1776493099.txt
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\data\temp\33_1776493099.txt
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:627 文件已从 MinIO 下载到临时目录: D:\rgzn\data\temp\33_1776493099.txt
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:635 下载的文件大小: 277 字节
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:645 开始直接从临时文件解析文本: D:\rgzn\data\temp\33_1776493099.txt, 类型: txt
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:237 文件大小: 277 字节
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\data\temp\33_1776493099.txt
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 240 个字符的文本
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:667 成功从文件 33.txt 中提取了 240 个字符的文本
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:237 文件大小: 277 字节
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\data\temp\33_1776493099.txt
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:18:19 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 240 个字符的文本
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:678 成功从文件 33.txt 中提取了 240 个字符的文本
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:693 文件相关性检查结果: 相关=False, 评分=0.0, 理由=文件内容未检测到足够的课程相关关键词
+2026-04-18 14:18:19 INFO course_assistant_api_rag api_server.py:713 文件已移动到目标目录: D:\rgzn\data\general_files\33_1776493099.txt
+2026-04-18 14:18:19 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 33.txt 与课程相关性较低，已存入普通文件目录', 'file_path': 'D:\\rgzn\\data\\general_files\\33_1776493099.txt', 'minio_path': 'minio://course-materials/course_materials/33_1776493099.txt', 'relevance_score': 0.0, 'reason': '文件内容未检测到足够的课程相关关键词', 'suggested_categories': ['其他']}, 'timestamp': '2026-04-18T14:18:19.952524'}
+2026-04-18 14:18:19 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:18:19 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: 33.txt
+2026-04-18 14:18:20 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2404.5/3000 tokens)，截断历史记录
+2026-04-18 14:38:57 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:38:57 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:38:57 INFO root logger.py:156 日志级别：20
+2026-04-18 14:38:59 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 14:38:59 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 14:38:59 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:38:59 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 14:39:00 INFO course_assistant_api_rag api_server.py:88 pypdf 库已加载
+2026-04-18 14:39:00 INFO course_assistant_api_rag api_server.py:94 python-docx 库已加载
+2026-04-18 14:39:00 INFO course_assistant_api_rag api_server.py:100 python-pptx 库已加载
+2026-04-18 14:39:00 INFO course_assistant_api_rag api_server.py:106 nbformat 库已加载
+2026-04-18 14:39:00 INFO course_assistant_api_rag api_server.py:112 BeautifulSoup 库已加载
+2026-04-18 14:39:08 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 14:39:08 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 14:39:08 INFO root logger.py:156 日志级别：20
+2026-04-18 14:39:08 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 14:39:08 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 14:39:10 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 14:39:10 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 14:39:10 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 14:39:10 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 14:39:10 INFO __main__ app_gradio.py:696 启动 Gradio 应用...
+2026-04-18 14:39:10 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 14:39:10 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 14:39:12 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 14:39:18 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2404.5/3000 tokens)，截断历史记录
+2026-04-18 14:39:25 INFO __main__ app_gradio.py:331 处理文件上传: novl.txt, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\c5975eb76ca7cbba3901871e3006e08f8fbfff4bbab5e4679dc1d7f3f2113b31\novl.txt
+2026-04-18 14:39:25 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/novl_1776494365.txt
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:605 文件 novl.txt 已成功上传到 MinIO: minio://course-materials/course_materials/novl_1776494365.txt
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:614 准备从MinIO下载文件: novl_1776494365.txt 到 D:\rgzn\A3_sz\data\temp\novl_1776494365.txt
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\novl_1776494365.txt
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:628 文件已从 MinIO 下载到临时目录: D:\rgzn\A3_sz\data\temp\novl_1776494365.txt
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:636 下载的文件大小: 400 字节
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:646 开始直接从临时文件解析文本: D:\rgzn\A3_sz\data\temp\novl_1776494365.txt, 类型: txt
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:237 文件大小: 400 字节
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\A3_sz\data\temp\novl_1776494365.txt
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 140 个字符的文本
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:668 成功从文件 novl.txt 中提取了 140 个字符的文本
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:237 文件大小: 400 字节
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:434 开始提取TXT文件内容: D:\rgzn\A3_sz\data\temp\novl_1776494365.txt
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:440 成功使用UTF-8编码读取TXT文件
+2026-04-18 14:39:25 INFO component.files_parser files_parser.py:458 成功从TXT文件提取 140 个字符的文本
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:679 成功从文件 novl.txt 中提取了 140 个字符的文本
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:694 文件相关性检查结果: 相关=False, 评分=0.0, 理由=文件内容未检测到足够的课程相关关键词
+2026-04-18 14:39:25 INFO course_assistant_api_rag api_server.py:714 文件已移动到目标目录: D:\rgzn\A3_sz\data\general_files\novl_1776494365.txt
+2026-04-18 14:39:25 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 novl.txt 与课程相关性较低，已存入普通文件目录', 'file_path': 'D:\\rgzn\\A3_sz\\data\\general_files\\novl_1776494365.txt', 'minio_path': 'minio://course-materials/course_materials/novl_1776494365.txt', 'relevance_score': 0.0, 'reason': '文件内容未检测到足够的课程相关关键词', 'suggested_categories': ['其他']}, 'timestamp': '2026-04-18T14:39:25.484781'}
+2026-04-18 14:39:25 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:39:25 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: novl.txt
+2026-04-18 14:39:25 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2266.5/3000 tokens)，截断历史记录
+2026-04-18 14:44:39 INFO __main__ app_gradio.py:331 处理文件上传: 2026课程安排.docx, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\e5061704de949e23d346fd21ac69a2cb9255cf568fd0f5121bd75777d028bcdb\2026课程安排.docx
+2026-04-18 14:44:39 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:605 文件 2026课程安排.docx 已成功上传到 MinIO: minio://course-materials/course_materials/2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:614 准备从MinIO下载文件: 2026课程安排_1776494679.docx 到 D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:628 文件已从 MinIO 下载到临时目录: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:636 下载的文件大小: 14667 字节
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:646 开始直接从临时文件解析文本: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx, 类型: docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:237 文件大小: 14667 字节
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:374 开始提取DOCX文件内容: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:378 DOCX文件共有 43 段落
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:391 成功从DOCX文件提取 843 个字符的文本
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:668 成功从文件 2026课程安排.docx 中提取了 843 个字符的文本
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:237 文件大小: 14667 字节
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:374 开始提取DOCX文件内容: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:378 DOCX文件共有 43 段落
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:391 成功从DOCX文件提取 843 个字符的文本
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:679 成功从文件 2026课程安排.docx 中提取了 843 个字符的文本
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:694 文件相关性检查结果: 相关=True, 评分=0.7999999999999999, 理由=文件内容包含 70 个课程相关关键词：习题, 作业, 考试, 学习, 内容
+2026-04-18 14:44:39 INFO course_assistant_api_rag api_server.py:714 文件已移动到目标目录: D:\rgzn\A3_sz\data\course_doc\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.memory_sqlite memory_sqlite.py:1112 保存文件映射: 2026课程安排.docx -> 2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:237 文件大小: 14667 字节
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:374 开始提取DOCX文件内容: D:\rgzn\A3_sz\data\temp\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:378 DOCX文件共有 43 段落
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:391 成功从DOCX文件提取 843 个字符的文本
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:1053 文件相关性检查结果: 相关=True, 评分=0.7999999999999999, 理由=文件内容包含 70 个课程相关关键词：习题, 作业, 考试, 学习, 内容
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:1082 开始将文件 2026课程安排_1776494679.docx 添加到向量库
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:570 开始从 MinIO 下载文件: 2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:582 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\2026课程安排_1776494679.docx
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:415 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:259 初始化向量数据库...
+2026-04-18 14:44:39 INFO component.llms llms.py:398 初始化 Qwen 嵌入模型成功: text-embedding-v1
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:322 尝试从磁盘加载向量库: D:\rgzn\A3_sz\data\chroma_course
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:332 向量库当前文档数量: 148
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:338 成功加载持久化向量库
+2026-04-18 14:44:39 INFO component.rag_course rag_course.py:433 处理文件: 2026课程安排_1776494679.docx, 类型: .docx
+2026-04-18 14:44:40 INFO component.rag_course rag_course.py:456 从文件 2026课程安排_1776494679.docx 加载了 1 个文档片段
+2026-04-18 14:44:40 INFO component.rag_course rag_course.py:487 开始分割 1 个文档片段
+2026-04-18 14:44:40 INFO component.rag_course rag_course.py:489 分割完成，生成 2 个文本块
+2026-04-18 14:44:40 INFO component.rag_course rag_course.py:492 开始将 2 个文本块添加到向量库
+2026-04-18 14:44:40 INFO component.rag_course rag_course.py:494 成功添加 2 个文档块到向量库
+2026-04-18 14:44:40 INFO component.rag_course rag_course.py:500 向量库当前文档总数: 150
+2026-04-18 14:44:41 INFO component.rag_course rag_course.py:508 向量库验证成功，检索到 5 条结果
+2026-04-18 14:44:41 INFO component.rag_course rag_course.py:586 成功将文件 2026课程安排_1776494679.docx 添加到向量库
+2026-04-18 14:44:41 INFO component.files_parser files_parser.py:1155 文件 2026课程安排_1776494679.docx 处理完成
+2026-04-18 14:44:41 INFO course_assistant_api_rag api_server.py:765 文件映射保存成功: 2026课程安排.docx -> 2026课程安排_1776494679.docx
+2026-04-18 14:44:41 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 2026课程安排.docx 上传成功，已存入课程文档目录，向量库正在后台更新中...', 'file_path': 'D:\\rgzn\\A3_sz\\data\\course_doc\\2026课程安排_1776494679.docx', 'minio_path': 'minio://course-materials/course_materials/2026课程安排_1776494679.docx', 'relevance_score': 0.7999999999999999, 'reason': '文件内容包含 70 个课程相关关键词：习题, 作业, 考试, 学习, 内容', 'suggested_categories': ['通识教育']}, 'timestamp': '2026-04-18T14:44:41.029548'}
+2026-04-18 14:44:41 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:44:41 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: 2026课程安排.docx
+2026-04-18 14:44:41 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2328.0/3000 tokens)，截断历史记录
+2026-04-18 14:44:41 INFO course_assistant_api_rag api_server.py:727 开始更新向量库，添加文件: 2026课程安排_1776494679.docx
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:415 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 150
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:433 处理文件: 2026课程安排_1776494679.docx, 类型: .docx
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:456 从文件 2026课程安排_1776494679.docx 加载了 1 个文档片段
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:487 开始分割 1 个文档片段
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:489 分割完成，生成 2 个文本块
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:492 开始将 2 个文本块添加到向量库
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:494 成功添加 2 个文档块到向量库
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:500 向量库当前文档总数: 152
+2026-04-18 14:44:42 INFO component.rag_course rag_course.py:508 向量库验证成功，检索到 5 条结果
+2026-04-18 14:44:42 INFO course_assistant_api_rag api_server.py:734 成功将文件 2026课程安排_1776494679.docx 添加到向量库
+2026-04-18 14:45:18 INFO __main__ app_gradio.py:131 发送聊天请求: 操作系统作业包括什么？
+2026-04-18 14:45:18 INFO course_assistant_api_rag api_server.py:338 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: 操作系统作业包括什么？
+2026-04-18 14:45:18 INFO component.memory_sqlite memory_sqlite.py:48 初始化 MemorySaver (内存存储模式)
+2026-04-18 14:45:18 INFO component.memory_sqlite memory_sqlite.py:50 MemorySaver 初始化完成
+2026-04-18 14:45:18 INFO component.agent agent.py:541 意图分类器初始化完成
+2026-04-18 14:45:18 INFO component.agent agent.py:544 开始初始化课程问答Agent...
+2026-04-18 14:45:18 WARNING component.agent agent.py:562 无法导入 AgentExecutor，将使用 LangGraph 方式
+2026-04-18 14:45:18 INFO component.agent agent.py:570 课程问答Agent初始化完成（LangGraph方式）
+2026-04-18 14:45:21 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.95, 理由: 用户明确询问‘操作系统作业’的内容，属于课程相关的实践任务范畴，是典型课程教学活动的一部分，不涉及文件操作、闲聊或需外部专业知识库的前沿技术问题。
+2026-04-18 14:45:21 INFO course_assistant_api_rag api_server.py:348 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.95
+2026-04-18 14:45:21 INFO course_assistant_api_rag api_server.py:396 开始执行 RAG 检索，查询: 操作系统作业包括什么？
+2026-04-18 14:45:21 INFO course_assistant_api_rag api_server.py:283 开始 RAG 检索，查询: 操作系统作业包括什么？, k=3
+2026-04-18 14:45:21 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 152
+2026-04-18 14:45:21 INFO course_assistant_api_rag api_server.py:286 RAG 检索完成，返回 3 个文档
+2026-04-18 14:45:21 INFO course_assistant_api_rag api_server.py:401 RAG 检索完成，获取 3 条知识点
+2026-04-18 14:45:31 INFO __main__ app_gradio.py:148 收到回复: 根据提供的参考资料，其中在《异常处理.pdf》中提到了 **`os` 模块** 的作用和适用场景：
+
+> **os 模块**：提供了与操作系统交互的功能，包括**文件路径操作、环境变量获取等**。  ...
+2026-04-18 14:45:31 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2379.0/3000 tokens)，截断历史记录
+2026-04-18 14:46:28 INFO __main__ app_gradio.py:331 处理文件上传: python提示工程.pdf, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\a4b5aff00431e9acbb008b9ebc6342c8241b08b2b7abd6da5f6fa0af24fd2ea5\python提示工程.pdf
+2026-04-18 14:46:28 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 14:46:28 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/python提示工程_1776494788.pdf
+2026-04-18 14:46:28 INFO course_assistant_api_rag api_server.py:605 文件 python提示工程.pdf 已成功上传到 MinIO: minio://course-materials/course_materials/python提示工程_1776494788.pdf
+2026-04-18 14:46:28 INFO course_assistant_api_rag api_server.py:614 准备从MinIO下载文件: python提示工程_1776494788.pdf 到 D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:28 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:28 INFO course_assistant_api_rag api_server.py:628 文件已从 MinIO 下载到临时目录: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:28 INFO course_assistant_api_rag api_server.py:636 下载的文件大小: 2023396 字节
+2026-04-18 14:46:28 INFO course_assistant_api_rag api_server.py:646 开始直接从临时文件解析文本: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf, 类型: pdf
+2026-04-18 14:46:28 INFO component.files_parser files_parser.py:237 文件大小: 2023396 字节
+2026-04-18 14:46:28 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:28 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:46:28 INFO component.files_parser files_parser.py:279 PDF文件共有 37 页
+2026-04-18 14:46:28 WARNING component.files_parser files_parser.py:297 第 2 页未能提取到文本
+2026-04-18 14:46:29 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 6886 个字符的文本
+2026-04-18 14:46:29 INFO course_assistant_api_rag api_server.py:668 成功从文件 python提示工程.pdf 中提取了 6886 个字符的文本
+2026-04-18 14:46:29 INFO component.files_parser files_parser.py:237 文件大小: 2023396 字节
+2026-04-18 14:46:29 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:29 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:46:29 INFO component.files_parser files_parser.py:279 PDF文件共有 37 页
+2026-04-18 14:46:29 WARNING component.files_parser files_parser.py:297 第 2 页未能提取到文本
+2026-04-18 14:46:30 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 6886 个字符的文本
+2026-04-18 14:46:30 INFO course_assistant_api_rag api_server.py:679 成功从文件 python提示工程.pdf 中提取了 6886 个字符的文本
+2026-04-18 14:46:30 INFO course_assistant_api_rag api_server.py:694 文件相关性检查结果: 相关=True, 评分=0.7, 理由=文件内容包含 50 个课程相关关键词：课程, 课件, 大纲, 作业, 内容
+2026-04-18 14:46:30 INFO course_assistant_api_rag api_server.py:714 文件已移动到目标目录: D:\rgzn\A3_sz\data\course_doc\python提示工程_1776494788.pdf
+2026-04-18 14:46:30 INFO component.memory_sqlite memory_sqlite.py:1112 保存文件映射: python提示工程.pdf -> python提示工程_1776494788.pdf
+2026-04-18 14:46:30 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:30 INFO component.files_parser files_parser.py:237 文件大小: 2023396 字节
+2026-04-18 14:46:30 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\python提示工程_1776494788.pdf
+2026-04-18 14:46:30 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 14:46:30 INFO component.files_parser files_parser.py:279 PDF文件共有 37 页
+2026-04-18 14:46:30 WARNING component.files_parser files_parser.py:297 第 2 页未能提取到文本
+2026-04-18 14:46:31 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 6886 个字符的文本
+2026-04-18 14:46:31 INFO component.files_parser files_parser.py:1053 文件相关性检查结果: 相关=True, 评分=0.7, 理由=文件内容包含 50 个课程相关关键词：课程, 课件, 大纲, 作业, 内容
+2026-04-18 14:46:31 INFO component.files_parser files_parser.py:1082 开始将文件 python提示工程_1776494788.pdf 添加到向量库
+2026-04-18 14:46:31 INFO component.rag_course rag_course.py:570 开始从 MinIO 下载文件: python提示工程_1776494788.pdf
+2026-04-18 14:46:31 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\python提示工程_1776494788.pdf
+2026-04-18 14:46:31 INFO component.rag_course rag_course.py:582 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\python提示工程_1776494788.pdf
+2026-04-18 14:46:31 INFO component.rag_course rag_course.py:415 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:46:31 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 152
+2026-04-18 14:46:31 INFO component.rag_course rag_course.py:433 处理文件: python提示工程_1776494788.pdf, 类型: .pdf
+2026-04-18 14:46:33 INFO component.rag_course rag_course.py:456 从文件 python提示工程_1776494788.pdf 加载了 37 个文档片段
+2026-04-18 14:46:33 INFO component.rag_course rag_course.py:487 开始分割 37 个文档片段
+2026-04-18 14:46:33 INFO component.rag_course rag_course.py:489 分割完成，生成 39 个文本块
+2026-04-18 14:46:33 INFO component.rag_course rag_course.py:492 开始将 39 个文本块添加到向量库
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:494 成功添加 39 个文档块到向量库
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:500 向量库当前文档总数: 191
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:508 向量库验证成功，检索到 5 条结果
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:512 验证成功：新上传的文件 python提示工程_1776494788.pdf 已被索引
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:586 成功将文件 python提示工程_1776494788.pdf 添加到向量库
+2026-04-18 14:46:34 INFO component.files_parser files_parser.py:1155 文件 python提示工程_1776494788.pdf 处理完成
+2026-04-18 14:46:34 INFO course_assistant_api_rag api_server.py:765 文件映射保存成功: python提示工程.pdf -> python提示工程_1776494788.pdf
+2026-04-18 14:46:34 INFO course_assistant_api_rag api_server.py:727 开始更新向量库，添加文件: python提示工程_1776494788.pdf
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:415 开始添加文档到向量库，文件数量: 1
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 191
+2026-04-18 14:46:34 INFO component.rag_course rag_course.py:433 处理文件: python提示工程_1776494788.pdf, 类型: .pdf
+2026-04-18 14:46:34 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 python提示工程.pdf 上传成功，已存入课程文档目录，向量库正在后台更新中...', 'file_path': 'D:\\rgzn\\A3_sz\\data\\course_doc\\python提示工程_1776494788.pdf', 'minio_path': 'minio://course-materials/course_materials/python提示工程_1776494788.pdf', 'relevance_score': 0.7, 'reason': '文件内容包含 50 个课程相关关键词：课程, 课件, 大纲, 作业, 内容', 'suggested_categories': ['通识教育']}, 'timestamp': '2026-04-18T14:46:34.877764'}
+2026-04-18 14:46:35 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 14:46:35 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: python提示工程.pdf
+2026-04-18 14:46:35 INFO component.rag_course rag_course.py:456 从文件 python提示工程_1776494788.pdf 加载了 37 个文档片段
+2026-04-18 14:46:35 INFO component.rag_course rag_course.py:487 开始分割 37 个文档片段
+2026-04-18 14:46:35 INFO component.rag_course rag_course.py:489 分割完成，生成 39 个文本块
+2026-04-18 14:46:35 INFO component.rag_course rag_course.py:492 开始将 39 个文本块添加到向量库
+2026-04-18 14:46:36 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2233.5/3000 tokens)，截断历史记录
+2026-04-18 14:46:37 INFO component.rag_course rag_course.py:494 成功添加 39 个文档块到向量库
+2026-04-18 14:46:37 INFO component.rag_course rag_course.py:500 向量库当前文档总数: 230
+2026-04-18 14:46:37 INFO component.rag_course rag_course.py:508 向量库验证成功，检索到 5 条结果
+2026-04-18 14:46:37 INFO component.rag_course rag_course.py:512 验证成功：新上传的文件 python提示工程_1776494788.pdf 已被索引
+2026-04-18 14:46:37 INFO course_assistant_api_rag api_server.py:734 成功将文件 python提示工程_1776494788.pdf 添加到向量库
+2026-04-18 15:55:57 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 15:55:57 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 15:55:57 INFO root logger.py:156 日志级别：20
+2026-04-18 15:55:59 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 15:55:59 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 15:55:59 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 15:55:59 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 15:56:00 INFO course_assistant_api_rag api_server.py:87 pypdf 库已加载
+2026-04-18 15:56:00 INFO course_assistant_api_rag api_server.py:93 python-docx 库已加载
+2026-04-18 15:56:00 INFO course_assistant_api_rag api_server.py:99 python-pptx 库已加载
+2026-04-18 15:56:00 INFO course_assistant_api_rag api_server.py:105 nbformat 库已加载
+2026-04-18 15:56:00 INFO course_assistant_api_rag api_server.py:111 BeautifulSoup 库已加载
+2026-04-18 15:57:50 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 15:57:50 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 15:57:50 INFO root logger.py:156 日志级别：20
+2026-04-18 15:57:50 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 15:57:50 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 15:57:52 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 15:57:52 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 15:57:52 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 15:57:52 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 15:57:52 INFO __main__ app_gradio.py:694 启动 Gradio 应用...
+2026-04-18 15:57:52 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 15:57:52 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 15:57:54 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 15:58:00 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2233.5/3000 tokens)，截断历史记录
+2026-04-18 15:58:02 INFO __main__ app_gradio.py:170 用户请求退出
+2026-04-18 15:58:47 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 15:58:47 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 15:58:47 INFO root logger.py:156 日志级别：20
+2026-04-18 15:58:47 INFO __main__ app_gradio.py:47 成功导入 memory_sqlite 模块
+2026-04-18 15:58:47 INFO __main__ app_gradio.py:73 成功导入 session_manager 模块
+2026-04-18 15:58:49 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 15:58:49 INFO __main__ app_gradio.py:110 会话管理器初始化成功
+2026-04-18 15:58:49 INFO __main__ app_gradio.py:463 成功读取 CSS 文件内容
+2026-04-18 15:58:49 INFO __main__ app_gradio.py:473 成功读取 JS 文件内容
+2026-04-18 15:58:49 INFO __main__ app_gradio.py:694 启动 Gradio 应用...
+2026-04-18 15:58:49 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 15:58:50 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 15:58:50 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 15:59:21 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2233.5/3000 tokens)，截断历史记录
+2026-04-18 15:59:22 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2233.5/3000 tokens)，截断历史记录
+2026-04-18 15:59:25 INFO __main__ app_gradio.py:131 发送聊天请求: 我的数据结构课程成绩是多少？
+2026-04-18 15:59:25 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: 我的数据结构课程成绩是多少？
+2026-04-18 15:59:25 INFO component.memory_sqlite memory_sqlite.py:48 初始化 MemorySaver (内存存储模式)
+2026-04-18 15:59:25 INFO component.memory_sqlite memory_sqlite.py:50 MemorySaver 初始化完成
+2026-04-18 15:59:25 INFO component.agent agent.py:541 意图分类器初始化完成
+2026-04-18 15:59:25 INFO component.agent agent.py:544 开始初始化课程问答Agent...
+2026-04-18 15:59:25 WARNING component.agent agent.py:562 无法导入 AgentExecutor，将使用 LangGraph 方式
+2026-04-18 15:59:25 INFO component.agent agent.py:570 课程问答Agent初始化完成（LangGraph方式）
+2026-04-18 15:59:28 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.85, 理由: 问题明确指向‘数据结构课程’这一具体课程，且询问的是与该课程直接相关的学业结果（成绩），属于课程咨询范畴；虽不涉及知识点或内容本身，但成绩查询是课程教学管理的常见延伸问题，仍在课程咨询顾问服务边界内。
+2026-04-18 15:59:28 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.85
+2026-04-18 15:59:28 INFO course_assistant_api_rag api_server.py:394 开始执行 RAG 检索，查询: 我的数据结构课程成绩是多少？
+2026-04-18 15:59:28 INFO course_assistant_api_rag api_server.py:282 开始 RAG 检索，查询: 我的数据结构课程成绩是多少？, k=3
+2026-04-18 15:59:28 INFO component.rag_course rag_course.py:259 初始化向量数据库...
+2026-04-18 15:59:28 INFO component.llms llms.py:396 初始化 Qwen 嵌入模型成功: text-embedding-v1
+2026-04-18 15:59:28 INFO component.rag_course rag_course.py:322 尝试从磁盘加载向量库: D:\rgzn\A3_sz\data\chroma_course
+2026-04-18 15:59:28 INFO component.rag_course rag_course.py:332 向量库当前文档数量: 230
+2026-04-18 15:59:28 INFO component.rag_course rag_course.py:338 成功加载持久化向量库
+2026-04-18 15:59:29 INFO course_assistant_api_rag api_server.py:285 RAG 检索完成，返回 3 个文档
+2026-04-18 15:59:29 INFO course_assistant_api_rag api_server.py:399 RAG 检索完成，获取 3 条知识点
+2026-04-18 15:59:32 INFO __main__ app_gradio.py:148 收到回复: 参考资料中未包含关于“数据结构课程成绩”的任何信息。这些资料仅涉及《Python提示工程》课程的课前准备和总结部分，与数据结构课程无关。
+
+作为课程咨询顾问+专业领域助手，我建议你通过以下方式查询数据...
+2026-04-18 15:59:32 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2893.5/3000 tokens)，截断历史记录
+2026-04-18 16:01:03 INFO __main__ app_gradio.py:331 处理文件上传: 函数.pdf, 路径: C:\Users\ACER\AppData\Local\Temp\gradio\1637a7a20d8391589034471de2ee998cfffe34271362e8ab008cae8b4ce60762\函数.pdf
+2026-04-18 16:01:03 INFO __main__ app_gradio.py:343 正在上传文件到后端: http://127.0.0.1:8000/api/knowledge/upload
+2026-04-18 16:01:03 INFO component.files_parser files_parser.py:739 文件流已成功上传到 MinIO: minio://course-materials/course_materials/函数_1776499263.pdf
+2026-04-18 16:01:03 INFO course_assistant_api_rag api_server.py:603 文件 函数.pdf 已成功上传到 MinIO: minio://course-materials/course_materials/函数_1776499263.pdf
+2026-04-18 16:01:03 INFO course_assistant_api_rag api_server.py:612 准备从MinIO下载文件: 函数_1776499263.pdf 到 D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:03 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:03 INFO course_assistant_api_rag api_server.py:626 文件已从 MinIO 下载到临时目录: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:03 INFO course_assistant_api_rag api_server.py:634 下载的文件大小: 2785333 字节
+2026-04-18 16:01:03 INFO course_assistant_api_rag api_server.py:644 开始直接从临时文件解析文本: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf, 类型: pdf
+2026-04-18 16:01:03 INFO component.files_parser files_parser.py:237 文件大小: 2785333 字节
+2026-04-18 16:01:03 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:03 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 16:01:03 INFO component.files_parser files_parser.py:279 PDF文件共有 32 页
+2026-04-18 16:01:06 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 3719 个字符的文本
+2026-04-18 16:01:06 INFO course_assistant_api_rag api_server.py:666 成功从文件 函数.pdf 中提取了 3719 个字符的文本
+2026-04-18 16:01:06 INFO component.files_parser files_parser.py:237 文件大小: 2785333 字节
+2026-04-18 16:01:06 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:06 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 16:01:06 INFO component.files_parser files_parser.py:279 PDF文件共有 32 页
+2026-04-18 16:01:08 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 3719 个字符的文本
+2026-04-18 16:01:08 INFO course_assistant_api_rag api_server.py:677 成功从文件 函数.pdf 中提取了 3719 个字符的文本
+2026-04-18 16:01:08 INFO course_assistant_api_rag api_server.py:692 文件相关性检查结果: 相关=True, 评分=0.8, 理由=文件内容包含 13 个课程相关关键词：学习, 题目, 示例, 练习, 总结
+2026-04-18 16:01:08 INFO course_assistant_api_rag api_server.py:712 文件已移动到目标目录: D:\rgzn\A3_sz\data\course_doc\函数_1776499263.pdf
+2026-04-18 16:01:08 INFO component.memory_sqlite memory_sqlite.py:1112 保存文件映射: 函数.pdf -> 函数_1776499263.pdf
+2026-04-18 16:01:08 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:08 INFO component.files_parser files_parser.py:237 文件大小: 2785333 字节
+2026-04-18 16:01:08 INFO component.files_parser files_parser.py:270 开始提取PDF文件内容: D:\rgzn\A3_sz\data\temp\函数_1776499263.pdf
+2026-04-18 16:01:08 INFO component.files_parser files_parser.py:275 使用 pypdf 库提取PDF文本
+2026-04-18 16:01:08 INFO component.files_parser files_parser.py:279 PDF文件共有 32 页
+2026-04-18 16:01:10 INFO component.files_parser files_parser.py:364 成功从PDF文件提取 3719 个字符的文本
+2026-04-18 16:01:10 INFO component.files_parser files_parser.py:1053 文件相关性检查结果: 相关=True, 评分=0.8, 理由=文件内容包含 13 个课程相关关键词：学习, 题目, 示例, 练习, 总结
+2026-04-18 16:01:10 INFO component.files_parser files_parser.py:1082 开始将文件 函数_1776499263.pdf 添加到向量库
+2026-04-18 16:01:10 INFO component.rag_course rag_course.py:570 开始从 MinIO 下载文件: 函数_1776499263.pdf
+2026-04-18 16:01:10 INFO component.files_parser files_parser.py:776 文件已从 MinIO 下载到: D:\rgzn\A3_sz\data\course_doc\函数_1776499263.pdf
+2026-04-18 16:01:10 INFO component.rag_course rag_course.py:582 开始将文件添加到向量库: D:\rgzn\A3_sz\data\course_doc\函数_1776499263.pdf
+2026-04-18 16:01:10 INFO component.rag_course rag_course.py:415 开始添加文档到向量库，文件数量: 1
+2026-04-18 16:01:10 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 230
+2026-04-18 16:01:10 INFO component.rag_course rag_course.py:433 处理文件: 函数_1776499263.pdf, 类型: .pdf
+2026-04-18 16:01:11 INFO component.rag_course rag_course.py:456 从文件 函数_1776499263.pdf 加载了 32 个文档片段
+2026-04-18 16:01:11 INFO component.rag_course rag_course.py:487 开始分割 32 个文档片段
+2026-04-18 16:01:11 INFO component.rag_course rag_course.py:489 分割完成，生成 33 个文本块
+2026-04-18 16:01:11 INFO component.rag_course rag_course.py:492 开始将 33 个文本块添加到向量库
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:494 成功添加 33 个文档块到向量库
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:500 向量库当前文档总数: 263
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:508 向量库验证成功，检索到 5 条结果
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:512 验证成功：新上传的文件 函数_1776499263.pdf 已被索引
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:586 成功将文件 函数_1776499263.pdf 添加到向量库
+2026-04-18 16:01:13 INFO component.files_parser files_parser.py:1155 文件 函数_1776499263.pdf 处理完成
+2026-04-18 16:01:13 INFO course_assistant_api_rag api_server.py:760 文件映射保存成功: 函数.pdf -> 函数_1776499263.pdf
+2026-04-18 16:01:13 INFO course_assistant_api_rag api_server.py:725 开始更新向量库，添加文件: 函数_1776499263.pdf
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:415 开始添加文档到向量库，文件数量: 1
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 263
+2026-04-18 16:01:13 INFO component.rag_course rag_course.py:433 处理文件: 函数_1776499263.pdf, 类型: .pdf
+2026-04-18 16:01:14 INFO component.rag_course rag_course.py:456 从文件 函数_1776499263.pdf 加载了 32 个文档片段
+2026-04-18 16:01:14 INFO component.rag_course rag_course.py:487 开始分割 32 个文档片段
+2026-04-18 16:01:14 INFO component.rag_course rag_course.py:489 分割完成，生成 33 个文本块
+2026-04-18 16:01:14 INFO component.rag_course rag_course.py:492 开始将 33 个文本块添加到向量库
+2026-04-18 16:01:13 INFO __main__ app_gradio.py:391 文件上传成功: {'code': 200, 'message': 'success', 'data': {'message': '文件 函数.pdf 上传成功，已存入课程文档目录，向量库正在后台更新中...', 'file_path': 'D:\\rgzn\\A3_sz\\data\\course_doc\\函数_1776499263.pdf', 'minio_path': 'minio://course-materials/course_materials/函数_1776499263.pdf', 'relevance_score': 0.8, 'reason': '文件内容包含 13 个课程相关关键词：学习, 题目, 示例, 练习, 总结', 'suggested_categories': ['通识教育']}, 'timestamp': '2026-04-18T16:01:13.879354'}
+2026-04-18 16:01:14 INFO __main__ app_gradio.py:429 文件上传消息已保存到数据库，会话ID: 会话 8_133941
+2026-04-18 16:01:14 INFO __main__ app_gradio.py:434 文件已选择、上传并显示: 函数.pdf
+2026-04-18 16:01:15 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2884.5/3000 tokens)，截断历史记录
+2026-04-18 16:01:16 INFO component.rag_course rag_course.py:494 成功添加 33 个文档块到向量库
+2026-04-18 16:01:16 INFO component.rag_course rag_course.py:500 向量库当前文档总数: 296
+2026-04-18 16:01:16 INFO component.rag_course rag_course.py:508 向量库验证成功，检索到 5 条结果
+2026-04-18 16:01:16 INFO component.rag_course rag_course.py:512 验证成功：新上传的文件 函数_1776499263.pdf 已被索引
+2026-04-18 16:01:16 INFO course_assistant_api_rag api_server.py:732 成功将文件 函数_1776499263.pdf 添加到向量库
+2026-04-18 16:01:46 INFO __main__ app_gradio.py:131 发送聊天请求: python函数的定义
+2026-04-18 16:01:46 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: python函数的定义
+2026-04-18 16:01:49 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.95, 理由: 用户询问'python函数的定义'，属于编程语言基础概念，是计算机类课程（如Python程序设计、程序设计基础）中明确涵盖的核心知识点，符合COURSE_QA定义中'编程语言特性、技术概念'的范畴。
+2026-04-18 16:01:49 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.95
+2026-04-18 16:01:49 INFO course_assistant_api_rag api_server.py:394 开始执行 RAG 检索，查询: python函数的定义
+2026-04-18 16:01:49 INFO course_assistant_api_rag api_server.py:282 开始 RAG 检索，查询: python函数的定义, k=3
+2026-04-18 16:01:49 INFO component.rag_course rag_course.py:254 返回已存在的向量库，文档数量: 296
+2026-04-18 16:01:49 INFO course_assistant_api_rag api_server.py:285 RAG 检索完成，返回 3 个文档
+2026-04-18 16:01:49 INFO course_assistant_api_rag api_server.py:399 RAG 检索完成，获取 3 条知识点
+2026-04-18 16:02:00 INFO __main__ app_gradio.py:148 收到回复: 根据提供的课程参考资料，Python函数的定义如下（整合自参考资料1、2、3）：
+
+✅ **定义**：  
+在编程中，函数是一段**组织良好、可重复使用**的代码块，用于实现**单一功能或相关功能**...
+2026-04-18 16:02:00 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (2787.0/3000 tokens)，截断历史记录
+2026-04-18 16:07:00 INFO __main__ app_gradio.py:131 发送聊天请求: 东莞今天的天气怎么样
+2026-04-18 16:07:00 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: 东莞今天的天气怎么样
+2026-04-18 16:07:03 INFO component.agent agent.py:293 意图识别 -> 类别: CHITCHAT, 置信度: 0.95, 理由: 用户询问东莞今天的天气，属于日常闲聊类问题，与课程、文件、专业领域咨询均无直接关联。
+2026-04-18 16:07:03 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.CHITCHAT, Confidence: 0.95
+2026-04-18 16:07:03 INFO course_assistant_api_rag api_server.py:371 识别为闲聊意图，触发 Fallback (直接 LLM 回答)
+2026-04-18 16:07:03 INFO component.agent agent.py:333 触发 Fallback 机制: 东莞今天的天气怎么样
+2026-04-18 16:07:04 INFO __main__ app_gradio.py:148 收到回复: 我主要专注于课程咨询与专业领域支持，不提供实时天气信息。建议您通过天气预报应用或搜索引擎查询“东莞今天天气”获取最新数据。...
+2026-04-18 16:07:04 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (3000.0/3000 tokens)，截断历史记录
+2026-04-18 16:07:32 INFO __main__ app_gradio.py:131 发送聊天请求: 赵一鸣零食有推荐的吗？
+2026-04-18 16:07:32 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 8_133941, query: 赵一鸣零食有推荐的吗？
+2026-04-18 16:07:34 INFO component.agent agent.py:293 意图识别 -> 类别: UNKNOWN, 置信度: 0.20, 理由: 问题与课程咨询、文件操作、专业领域深度技术问题或日常寒暄均无明显关联，属于消费推荐类问题，不在预定义意图范围内。
+2026-04-18 16:07:34 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.UNKNOWN, Confidence: 0.2
+2026-04-18 16:07:34 INFO course_assistant_api_rag api_server.py:351 触发 Fallback: 置信度 0.2 < 0.7 或意图未知
+2026-04-18 16:07:34 INFO component.agent agent.py:333 触发 Fallback 机制: 赵一鸣零食有推荐的吗？
+2026-04-18 16:07:43 INFO __main__ app_gradio.py:148 收到回复: 赵一鸣是连锁零食品牌，主打高性价比、自有供应链和“不加价”策略，产品覆盖膨化食品、烘焙糕点、坚果炒货、糖果巧克力、休闲卤味、饮料乳品等全品类。根据其官方门店热销榜与消费者口碑，以下几类推荐度较高：
+
+...
+2026-04-18 16:07:43 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (1749.0/3000 tokens)，截断历史记录
+2026-04-18 16:18:01 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:18:02 INFO component.session_manager session_manager.py:131 切换到会话: 会话 6_133941
+2026-04-18 16:18:04 INFO component.session_manager session_manager.py:131 切换到会话: 会话 5_133940
+2026-04-18 16:18:04 INFO component.session_manager session_manager.py:131 切换到会话: 会话 4_133940
+2026-04-18 16:18:05 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:18:33 INFO __main__ app_gradio.py:131 发送聊天请求: 零食舱有什么零食
+2026-04-18 16:18:33 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 7_133941, query: 零食舱有什么零食
+2026-04-18 16:18:37 INFO component.agent agent.py:293 意图识别 -> 类别: UNKNOWN, 置信度: 0.20, 理由: 问题'零食舱有什么零食'语义模糊，'零食舱'并非标准课程、文件、专业领域或通用对话中的常见概念，无法明确归属到COURSE_QA、FILE_OPERATION、CHITCHAT或PROFESSIONAL_CONSULTING中的任一类；缺乏上下文（如是否指某课程实验设备、某智能硬件项目、或校园设施），且无关键词指向已知工具能力范围。
+2026-04-18 16:18:37 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.UNKNOWN, Confidence: 0.2
+2026-04-18 16:18:37 INFO course_assistant_api_rag api_server.py:351 触发 Fallback: 置信度 0.2 < 0.7 或意图未知
+2026-04-18 16:18:37 INFO component.agent agent.py:333 触发 Fallback 机制: 零食舱有什么零食
+2026-04-18 16:18:41 INFO __main__ app_gradio.py:148 收到回复: “零食舱”并不是一个标准课程或教学资源中的术语，当前知识库中未检索到与“零食舱”相关的课程内容、教学资料或校园设施信息。它可能是一个特定场景下的昵称（例如某间教室的趣味叫法、学生社团的活动空间、或某个...
+2026-04-18 16:19:11 INFO component.session_manager session_manager.py:131 切换到会话: 会话 8_133941
+2026-04-18 16:19:11 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (1749.0/3000 tokens)，截断历史记录
+2026-04-18 16:19:12 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:29:43 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 16:29:43 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 16:29:43 INFO root logger.py:156 日志级别：20
+2026-04-18 16:29:45 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 16:29:45 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 16:29:45 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 16:29:45 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 16:29:45 INFO course_assistant_api_rag api_server.py:87 pypdf 库已加载
+2026-04-18 16:29:45 INFO course_assistant_api_rag api_server.py:93 python-docx 库已加载
+2026-04-18 16:29:45 INFO course_assistant_api_rag api_server.py:99 python-pptx 库已加载
+2026-04-18 16:29:45 INFO course_assistant_api_rag api_server.py:105 nbformat 库已加载
+2026-04-18 16:29:45 INFO course_assistant_api_rag api_server.py:111 BeautifulSoup 库已加载
+2026-04-18 16:31:27 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 16:31:27 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 16:31:27 INFO root logger.py:156 日志级别：20
+2026-04-18 16:31:27 INFO __main__ app_gradio.py:48 成功导入 memory_sqlite 模块
+2026-04-18 16:31:27 INFO __main__ app_gradio.py:74 成功导入 session_manager 模块
+2026-04-18 16:31:29 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 16:31:29 INFO __main__ app_gradio.py:111 会话管理器初始化成功
+2026-04-18 16:31:29 INFO __main__ app_gradio.py:470 成功读取 CSS 文件内容
+2026-04-18 16:31:29 INFO __main__ app_gradio.py:480 成功读取 JS 文件内容
+2026-04-18 16:31:29 INFO __main__ app_gradio.py:701 启动 Gradio 应用...
+2026-04-18 16:31:30 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 16:31:30 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 16:31:30 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 16:31:38 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (1749.0/3000 tokens)，截断历史记录
+2026-04-18 16:31:47 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:31:50 INFO component.session_manager session_manager.py:131 切换到会话: 会话 6_133941
+2026-04-18 16:36:09 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 16:36:09 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 16:36:09 INFO root logger.py:156 日志级别：20
+2026-04-18 16:36:12 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 16:36:12 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 16:36:12 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 16:36:12 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 16:36:12 INFO course_assistant_api_rag api_server.py:87 pypdf 库已加载
+2026-04-18 16:36:12 INFO course_assistant_api_rag api_server.py:93 python-docx 库已加载
+2026-04-18 16:36:12 INFO course_assistant_api_rag api_server.py:99 python-pptx 库已加载
+2026-04-18 16:36:12 INFO course_assistant_api_rag api_server.py:105 nbformat 库已加载
+2026-04-18 16:36:12 INFO course_assistant_api_rag api_server.py:111 BeautifulSoup 库已加载
+2026-04-18 16:36:20 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 16:36:20 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 16:36:20 INFO root logger.py:156 日志级别：20
+2026-04-18 16:36:20 INFO __main__ app_gradio.py:48 成功导入 memory_sqlite 模块
+2026-04-18 16:36:20 INFO __main__ app_gradio.py:74 成功导入 session_manager 模块
+2026-04-18 16:36:22 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 8_133941
+2026-04-18 16:36:22 INFO __main__ app_gradio.py:111 会话管理器初始化成功
+2026-04-18 16:36:22 INFO __main__ app_gradio.py:471 成功读取 CSS 文件内容
+2026-04-18 16:36:22 INFO __main__ app_gradio.py:481 成功读取 JS 文件内容
+2026-04-18 16:36:22 INFO __main__ app_gradio.py:702 启动 Gradio 应用...
+2026-04-18 16:36:22 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 16:36:23 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 16:36:23 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 16:36:48 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (1749.0/3000 tokens)，截断历史记录
+2026-04-18 16:36:51 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:36:52 INFO component.session_manager session_manager.py:131 切换到会话: 会话 6_133941
+2026-04-18 16:37:34 INFO __main__ app_gradio.py:132 发送聊天请求: 十八岁少奶奶
+2026-04-18 16:37:34 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 6_133941, query: 十八岁少奶奶
+2026-04-18 16:37:34 INFO component.memory_sqlite memory_sqlite.py:48 初始化 MemorySaver (内存存储模式)
+2026-04-18 16:37:34 INFO component.memory_sqlite memory_sqlite.py:50 MemorySaver 初始化完成
+2026-04-18 16:37:34 INFO component.agent agent.py:541 意图分类器初始化完成
+2026-04-18 16:37:34 INFO component.agent agent.py:544 开始初始化课程问答Agent...
+2026-04-18 16:37:34 WARNING component.agent agent.py:562 无法导入 AgentExecutor，将使用 LangGraph 方式
+2026-04-18 16:37:34 INFO component.agent agent.py:570 课程问答Agent初始化完成（LangGraph方式）
+2026-04-18 16:37:37 INFO component.agent agent.py:293 意图识别 -> 类别: UNKNOWN, 置信度: 0.15, 理由: 该短语'十八岁少奶奶'语义模糊，无明确课程相关性、文件操作指示、专业咨询指向或寒暄特征；可能为网络用语、误输入、影视作品名或非正式称谓，但缺乏上下文无法确定其意图归属。
+2026-04-18 16:37:37 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.UNKNOWN, Confidence: 0.15
+2026-04-18 16:37:37 INFO course_assistant_api_rag api_server.py:351 触发 Fallback: 置信度 0.15 < 0.7 或意图未知
+2026-04-18 16:37:37 INFO component.agent agent.py:333 触发 Fallback 机制: 十八岁少奶奶
+2026-04-18 16:37:42 INFO __main__ app_gradio.py:149 收到回复: 您好，作为课程咨询顾问，我需要说明：“十八岁少奶奶”并非正规教育或职业发展领域的课程名称，也不属于国家认可的学历教育、职业教育或专业培训项目。该表述可能源于网络流行语、影视剧情或非正式社会称谓，不具备...
+2026-04-18 16:38:00 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:38:01 INFO component.session_manager session_manager.py:131 切换到会话: 会话 6_133941
+2026-04-18 16:38:28 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 9_163828
+2026-04-18 16:38:28 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 10 个会话
+2026-04-18 16:38:28 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 9_163828
+2026-04-18 16:38:31 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 16:38:33 INFO component.session_manager session_manager.py:131 切换到会话: 会话 6_133941
+2026-04-18 16:39:00 INFO __main__ app_gradio.py:132 发送聊天请求: 李柯以
+2026-04-18 16:39:00 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 6_133941, query: 李柯以
+2026-04-18 16:39:03 INFO component.agent agent.py:293 意图识别 -> 类别: UNKNOWN, 置信度: 0.15, 理由: 输入'李柯以'仅为一个中文人名，无动词、疑问词或上下文，无法判断其意图是课程咨询、文件操作、闲聊、专业咨询或其它；既不构成问题，也不包含可识别的请求动作或领域线索。
+2026-04-18 16:39:03 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.UNKNOWN, Confidence: 0.15
+2026-04-18 16:39:03 INFO course_assistant_api_rag api_server.py:351 触发 Fallback: 置信度 0.15 < 0.7 或意图未知
+2026-04-18 16:39:03 INFO component.agent agent.py:333 触发 Fallback 机制: 李柯以
+2026-04-18 16:39:07 INFO __main__ app_gradio.py:149 收到回复: 您好，李柯以先生/女士！请问您具体想了解哪方面的课程咨询？例如：  
+- 某一专业领域（如人工智能、项目管理、金融合规、教育心理学等）的认证培训或学历提升路径；  
+- 企业内训定制、职业能力评估或学...
+2026-04-18 16:40:02 INFO __main__ app_gradio.py:132 发送聊天请求: 华为ICT大赛
+2026-04-18 16:40:02 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 6_133941, query: 华为ICT大赛
+2026-04-18 16:40:06 INFO component.agent agent.py:293 意图识别 -> 类别: UNKNOWN, 置信度: 0.35, 理由: 用户仅输入'华为ICT大赛'，未明确表达具体意图：既未询问课程相关内容（如备赛课程、知识点覆盖、往届考题等），也未请求文件操作、专业咨询或闲聊。该短语本身是一个专有名词，缺乏动词、疑问词或上下文，无法判断是想了解赛事规则、报名方式、技术考点、培训资源，还是其他需求。
+2026-04-18 16:40:06 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.UNKNOWN, Confidence: 0.35
+2026-04-18 16:40:06 INFO course_assistant_api_rag api_server.py:351 触发 Fallback: 置信度 0.35 < 0.7 或意图未知
+2026-04-18 16:40:06 INFO component.agent agent.py:333 触发 Fallback 机制: 华为ICT大赛
+2026-04-18 16:40:12 INFO __main__ app_gradio.py:149 收到回复: 华为ICT大赛是由华为公司主办的面向全球大学生的年度ICT技能竞赛，旨在推动ICT人才培养、促进产教融合与校企合作。大赛覆盖人工智能、大数据、云计算、物联网、5G、网络安全、鸿蒙开发、昇腾AI等多个前...
+2026-04-18 16:40:52 INFO component.session_manager session_manager.py:131 切换到会话: 会话 9_163828
+2026-04-18 16:40:54 INFO component.session_manager session_manager.py:131 切换到会话: 会话 6_133941
+2026-04-18 16:41:01 INFO component.session_manager session_manager.py:131 切换到会话: 会话 9_163828
+2026-04-18 16:41:26 INFO __main__ app_gradio.py:132 发送聊天请求: 你能做什么？
+2026-04-18 16:41:26 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 9_163828, query: 你能做什么？
+2026-04-18 16:41:30 INFO component.agent agent.py:293 意图识别 -> 类别: UNKNOWN, 置信度: 0.95, 理由: 用户输入'你能做什么？'属于功能自介绍类询问，未指向课程内容、文件操作、专业领域深度问题或闲聊意图；它不匹配COURSE_QA（无课程提及）、FILE_OPERATION（无文件指代）、CHITCHAT（非问候/情感表达，而是系统能力探询）、PROFESSIONAL_CONSULTING（无领域技术问题）；最符合UNKNOWN定义中'无法明确归类'的情形。
+2026-04-18 16:41:30 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.UNKNOWN, Confidence: 0.95
+2026-04-18 16:41:30 INFO course_assistant_api_rag api_server.py:351 触发 Fallback: 置信度 0.95 < 0.7 或意图未知
+2026-04-18 16:41:30 INFO component.agent agent.py:333 触发 Fallback 机制: 你能做什么？
+2026-04-18 16:41:35 INFO __main__ app_gradio.py:149 收到回复: 作为专业的课程咨询顾问与领域助手，我能够：  
+✅ 精准评估您的学习目标、基础水平与职业规划，为您定制个性化课程路径；  
+✅ 深度解析国内外主流课程体系（如Python/数据分析/AI/项目管理/C...
+2026-04-18 16:41:39 INFO __main__ app_gradio.py:132 发送聊天请求: 关于作为专业的课，我想了解更多
+2026-04-18 16:41:39 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 9_163828, query: 关于作为专业的课，我想了解更多
+2026-04-18 16:41:43 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.85, 理由: 用户明确提到‘作为专业的课’，语境中‘作为’应为‘计算机科学与技术’或类似专业的口语化简略表达（如常见口误或语音转文字误差），结合‘想了解更多’，意图指向课程体系、专业培养方案、核心课程设置等典型课程咨询问题，属于课程内容范畴。
+2026-04-18 16:41:43 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.85
+2026-04-18 16:41:43 INFO course_assistant_api_rag api_server.py:394 开始执行 RAG 检索，查询: 关于作为专业的课，我想了解更多
+2026-04-18 16:41:43 INFO course_assistant_api_rag api_server.py:282 开始 RAG 检索，查询: 关于作为专业的课，我想了解更多, k=3
+2026-04-18 16:41:43 INFO component.rag_course rag_course.py:259 初始化向量数据库...
+2026-04-18 16:41:43 INFO component.llms llms.py:396 初始化 Qwen 嵌入模型成功: text-embedding-v1
+2026-04-18 16:41:43 INFO component.rag_course rag_course.py:322 尝试从磁盘加载向量库: D:\rgzn\A3_sz\data\chroma_course
+2026-04-18 16:41:43 INFO component.rag_course rag_course.py:332 向量库当前文档数量: 296
+2026-04-18 16:41:43 INFO component.rag_course rag_course.py:338 成功加载持久化向量库
+2026-04-18 16:41:43 INFO course_assistant_api_rag api_server.py:285 RAG 检索完成，返回 3 个文档
+2026-04-18 16:41:43 INFO course_assistant_api_rag api_server.py:399 RAG 检索完成，获取 3 条知识点
+2026-04-18 16:41:52 INFO __main__ app_gradio.py:149 收到回复: 你好！我是课程咨询顾问+专业领域助手，专门为你提供课程相关咨询和专业领域支持。
+
+根据你提供的参考资料，目前检索到的《Python提示工程》课程材料仅包含非常简略的信息：“课前准备”（出现两次）和一句...
+2026-04-18 16:43:24 INFO component.session_manager session_manager.py:131 切换到会话: 会话 8_133941
+2026-04-18 16:43:25 INFO component.memory_sqlite memory_sqlite.py:895 上下文窗口已满 (1749.0/3000 tokens)，截断历史记录
+2026-04-18 16:43:28 INFO component.session_manager session_manager.py:131 切换到会话: 会话 7_133941
+2026-04-18 23:12:27 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 23:12:27 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 23:12:27 INFO root logger.py:156 日志级别：20
+2026-04-18 23:12:29 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-18 23:12:29 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-18 23:12:29 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 23:12:29 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-18 23:12:30 INFO course_assistant_api_rag api_server.py:87 pypdf 库已加载
+2026-04-18 23:12:30 INFO course_assistant_api_rag api_server.py:93 python-docx 库已加载
+2026-04-18 23:12:30 INFO course_assistant_api_rag api_server.py:99 python-pptx 库已加载
+2026-04-18 23:12:30 INFO course_assistant_api_rag api_server.py:105 nbformat 库已加载
+2026-04-18 23:12:30 INFO course_assistant_api_rag api_server.py:111 BeautifulSoup 库已加载
+2026-04-18 23:12:47 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 23:12:47 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 23:12:47 INFO root logger.py:156 日志级别：20
+2026-04-18 23:12:47 INFO __main__ app_gradio.py:48 成功导入 memory_sqlite 模块
+2026-04-18 23:12:47 INFO __main__ app_gradio.py:74 成功导入 session_manager 模块
+2026-04-18 23:12:49 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 9_163828
+2026-04-18 23:12:49 INFO __main__ app_gradio.py:111 会话管理器初始化成功
+2026-04-18 23:12:49 INFO __main__ app_gradio.py:471 成功读取 CSS 文件内容
+2026-04-18 23:12:49 INFO __main__ app_gradio.py:481 成功读取 JS 文件内容
+2026-04-18 23:12:49 INFO __main__ app_gradio.py:702 启动 Gradio 应用...
+2026-04-18 23:12:49 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 23:12:49 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 23:12:50 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-18 23:13:22 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 10_231322
+2026-04-18 23:13:22 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 11 个会话
+2026-04-18 23:13:22 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 10_231322
+2026-04-18 23:13:37 INFO __main__ app_gradio.py:132 发送聊天请求: python元祖的内容
+2026-04-18 23:13:37 INFO course_assistant_api_rag api_server.py:336 收到对话请求 - user_id: gradio_user, thread_id: 会话 10_231322, query: python元祖的内容
+2026-04-18 23:13:37 INFO component.memory_sqlite memory_sqlite.py:48 初始化 MemorySaver (内存存储模式)
+2026-04-18 23:13:37 INFO component.memory_sqlite memory_sqlite.py:50 MemorySaver 初始化完成
+2026-04-18 23:13:37 INFO component.agent agent.py:541 意图分类器初始化完成
+2026-04-18 23:13:37 INFO component.agent agent.py:544 开始初始化课程问答Agent...
+2026-04-18 23:13:37 WARNING component.agent agent.py:562 无法导入 AgentExecutor，将使用 LangGraph 方式
+2026-04-18 23:13:37 INFO component.agent agent.py:570 课程问答Agent初始化完成（LangGraph方式）
+2026-04-18 23:13:41 INFO component.agent agent.py:293 意图识别 -> 类别: COURSE_QA, 置信度: 0.95, 理由: 用户询问'python元祖的内容'，存在明显错别字（应为'元组'），但核心意图是了解Python中元组（tuple）这一基础数据结构的定义、特性、语法和用法，属于编程语言基础概念，是Python或程序设计类课程的标准教学内容。
+2026-04-18 23:13:41 INFO course_assistant_api_rag api_server.py:346 意图识别结果 -> Intent: IntentType.COURSE_QA, Confidence: 0.95
+2026-04-18 23:13:41 INFO course_assistant_api_rag api_server.py:394 开始执行 RAG 检索，查询: python元祖的内容
+2026-04-18 23:13:41 INFO course_assistant_api_rag api_server.py:282 开始 RAG 检索，查询: python元祖的内容, k=3
+2026-04-18 23:13:41 INFO component.rag_course rag_course.py:259 初始化向量数据库...
+2026-04-18 23:13:41 INFO component.llms llms.py:396 初始化 Qwen 嵌入模型成功: text-embedding-v1
+2026-04-18 23:13:41 INFO component.rag_course rag_course.py:322 尝试从磁盘加载向量库: D:\rgzn\A3_sz\data\chroma_course
+2026-04-18 23:13:41 INFO component.rag_course rag_course.py:332 向量库当前文档数量: 296
+2026-04-18 23:13:41 INFO component.rag_course rag_course.py:338 成功加载持久化向量库
+2026-04-18 23:13:41 INFO course_assistant_api_rag api_server.py:285 RAG 检索完成，返回 3 个文档
+2026-04-18 23:13:41 INFO course_assistant_api_rag api_server.py:399 RAG 检索完成，获取 3 条知识点
+2026-04-18 23:13:50 INFO __main__ app_gradio.py:149 收到回复: 根据课程知识库中检索到的参考资料，您询问的“Python元祖”（应为“元组”，英文 tuple）相关内容在《元祖集合列表字典_1776492153.pdf》中有涵盖，该文件属于**Python编程基础...
+2026-04-18 23:14:07 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-18 23:14:07 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-18 23:14:07 INFO root logger.py:156 日志级别：20
+2026-04-18 23:14:07 INFO __main__ app_gradio.py:48 成功导入 memory_sqlite 模块
+2026-04-18 23:14:07 INFO __main__ app_gradio.py:74 成功导入 session_manager 模块
+2026-04-18 23:14:09 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 10_231322
+2026-04-18 23:14:09 INFO __main__ app_gradio.py:111 会话管理器初始化成功
+2026-04-18 23:14:09 INFO __main__ app_gradio.py:471 成功读取 CSS 文件内容
+2026-04-18 23:14:09 INFO __main__ app_gradio.py:481 成功读取 JS 文件内容
+2026-04-18 23:14:09 INFO __main__ app_gradio.py:702 启动 Gradio 应用...
+2026-04-18 23:14:09 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-18 23:14:09 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-18 23:14:10 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-29 16:34:45 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-29 16:34:45 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-29 16:34:45 INFO root logger.py:156 日志级别：20
+2026-04-29 16:34:49 INFO component.llms llms.py:107 初始化qwen-plus模型成功 (ChatModel模式)
+2026-04-29 16:34:49 INFO component.agent agent.py:59 已加载聊天模型: qwen
+2026-04-29 16:34:49 INFO component.tools tools.py:355 注册工具列表：['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-29 16:34:49 INFO component.agent agent.py:62 已注册工具集: ['rag_course', 'tavily_search', 'sql_agent', 'files_parser']
+2026-04-29 16:34:50 INFO course_assistant_api_rag api_server.py:87 pypdf 库已加载
+2026-04-29 16:34:50 INFO course_assistant_api_rag api_server.py:93 python-docx 库已加载
+2026-04-29 16:34:50 INFO course_assistant_api_rag api_server.py:99 python-pptx 库已加载
+2026-04-29 16:34:50 INFO course_assistant_api_rag api_server.py:105 nbformat 库已加载
+2026-04-29 16:34:50 INFO course_assistant_api_rag api_server.py:111 BeautifulSoup 库已加载
+2026-04-29 16:35:39 INFO root logger.py:154 日志管理器初始化完成，使用处理器：ConcurrentRotatingFileHandler
+2026-04-29 16:35:39 INFO root logger.py:155 日志文件：D:\rgzn\A3_sz\data\logs\app.log，最大大小：5242880字节，备份数：3
+2026-04-29 16:35:39 INFO root logger.py:156 日志级别：20
+2026-04-29 16:35:39 INFO __main__ app_gradio.py:48 成功导入 memory_sqlite 模块
+2026-04-29 16:35:39 INFO __main__ app_gradio.py:74 成功导入 session_manager 模块
+2026-04-29 16:35:41 INFO component.session_manager session_manager.py:79 初始化会话历史成功，当前会话: 会话 10_231322
+2026-04-29 16:35:41 INFO __main__ app_gradio.py:111 会话管理器初始化成功
+2026-04-29 16:35:41 INFO __main__ app_gradio.py:471 成功读取 CSS 文件内容
+2026-04-29 16:35:41 INFO __main__ app_gradio.py:481 成功读取 JS 文件内容
+2026-04-29 16:35:41 INFO __main__ app_gradio.py:702 启动 Gradio 应用...
+2026-04-29 16:35:42 INFO httpx _client.py:1025 HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2026-04-29 16:35:42 INFO httpx _client.py:1025 HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2026-04-29 16:35:42 INFO httpx _client.py:1025 HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2026-04-29 16:36:09 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 1_163609
+2026-04-29 16:36:09 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 12 个会话
+2026-04-29 16:36:09 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 1_163609
+2026-04-29 16:38:09 INFO component.session_manager session_manager.py:131 切换到会话: 会话 10_231322
+2026-04-29 16:38:27 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 2_163827
+2026-04-29 16:38:27 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 13 个会话
+2026-04-29 16:38:27 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 2_163827
+2026-04-29 16:38:31 INFO component.memory_sqlite memory_sqlite.py:411 成功创建会话: 会话 3_163831
+2026-04-29 16:38:31 INFO component.session_manager session_manager.py:366 刷新会话列表成功，共 14 个会话
+2026-04-29 16:38:31 INFO component.session_manager session_manager.py:205 创建新会话成功: 会话 3_163831
